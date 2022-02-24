@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #fcfcff;
+}
+
+.card-img-top {
+  height: 172px;
+  object-fit: cover;
+}
+p.card-text {
+  font-size: 14px;
+  text-align: left;
+  color: #5a5a5a;
+}
+h5.card-title {
+  font-size: 17px;
+}
+#search-field {
+  border-radius: 50px 0 0 50px;
+}
+#search-btn {
+  border-radius: 0 50px 50px 0;
+}
+div#result-count {
+  color: #5e5e5e;
+}
+button.btn-close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.meal-photo {
+  object-fit: cover;
+}
+p.ingredients span,
+p.category span {
+  font-size: 14px;
+  margin: 2px;
+  background: #efefef;
+  padding: 2px 10px;
+  display: inline-block;
+}
+p.area {
+  margin-bottom: 2px;
+}
+p.area span {
+  font-size: 14px;
+  margin: 2px;
+  background: #32b361;
+  padding: 2px 10px;
+  display: inline-block;
+}
